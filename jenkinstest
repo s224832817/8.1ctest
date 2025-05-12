@@ -50,10 +50,6 @@ pipeline {
                 echo 'Staging Tests: Run integration tests on staging using Selenium or Postman.'
             }
         }
-         stage('random') {
-        steps {
-            echo 'random checks...'
-        }
-    }     
+            
     }
 }
