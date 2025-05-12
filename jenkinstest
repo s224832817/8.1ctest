@@ -47,12 +47,6 @@ pipeline {
                 echo 'Staging Tests: Run integration tests on staging using Selenium or Postman.'
             }
         }
-        stage('Deploy to Production') {
-            steps {
-                // Task: Deploy the final version to production.
-                // Tool: AWS CLI, Docker, or Ansible
-                echo 'Deploy to Production: Push final build to production server using AWS CLI or Docker.'
-            }
-        }
+      
     }
 }
